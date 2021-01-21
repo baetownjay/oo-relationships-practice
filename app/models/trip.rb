@@ -1,6 +1,6 @@
 require 'pry'
 class Trip
-attr_accessor :listing, :guest 
+attr_accessor :listing, :guest, :name 
 
     @@all = []
     def initialize(listing, guest)
